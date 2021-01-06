@@ -55,6 +55,10 @@ const data = [
         slug: 'Advanced/NavigatorExample',
       },
       {
+        name: 'React Navigation Bindings',
+        slug: 'Advanced/NavigatorBindingsExample',
+      },
+      {
         name: 'Custom Handle',
         slug: 'Advanced/CustomHandleExample',
       },

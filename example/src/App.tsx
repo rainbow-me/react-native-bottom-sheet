@@ -98,6 +98,15 @@ function App() {
             }
           />
           <Stack.Screen
+            name="Advanced/NavigatorBindingsExample"
+            options={{
+              title: 'Navigator Example',
+            }}
+            getComponent={() =>
+              require('./navigation/NavigationExample').default
+            }
+          />
+          <Stack.Screen
             name="Advanced/CustomHandleExample"
             options={{
               title: 'Custom Handle Example',
